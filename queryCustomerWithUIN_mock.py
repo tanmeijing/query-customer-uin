@@ -56,7 +56,7 @@ def lambda_handler(event, context):
     transactionResponse['sex'] = 'm'
     transactionResponse['addr'] = 'Apple Street'
     transactionResponse['contactNo'] = '12345678'
-    transactionResponse['email'] = 'dog@hotmail.com'
+    transactionResponse['email'] = 'dogs@hotmail.com'
     
 # Construct http response object
     responseObject = {}
